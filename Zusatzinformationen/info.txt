@@ -1,1 +1,1 @@
-Hier finden sich ein paar Zusatzinformationen bzw. Images zum ESP32-Pico-Board
+Hier finden sich ein paar Zusatzinformationen bzw. Images zum ESP32-Pico-Board und zum Buch
