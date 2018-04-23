@@ -51,7 +51,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 void reconnect() {
   while (!client.connected()) {
     Serial.print("Starte MQTT-Verbindung...");
-    if (client.connect("ESP8266Client")) {
+    if (client.connect("ESP32Client")) {
       Serial.println("verbunden");
       client.publish(topic, "Ich lebe!"); // Kurzes Lebenszeichen
       client.subscribe(topic); // Subcription des Topics
